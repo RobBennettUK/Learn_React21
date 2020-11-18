@@ -4,10 +4,14 @@ var isDone = false;
 
 function strike() {
   isDone = true;
+  // This would be the imperative method
+  // document.getElementById("root").style.textDecoration="line-through";
 }
 
 function unStrike() {
   isDone = false;
+  // This would be the imperative method
+  // document.getElementById("root").style.textDecoration=null;
 }
 
 function App() {
